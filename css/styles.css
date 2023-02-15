@@ -144,3 +144,72 @@ header .navbar .button:hover {
   object-fit: cover;
   padding: 1rem;
 }
+#about{
+  padding: 10rem 0;
+}
+.title{
+  font-size: 5rem;
+
+}
+.about-me{
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.CV {
+  padding: 1rem 2rem;
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  border-radius: 50px;
+  font-size: 2rem;
+  color: white;
+}
+
+.CV:hover {
+  border: 1px solid #EB7B5B;
+  background: transparent;
+  color: #EB7B5B;
+}
+.footer{
+  padding: 10rem 0;
+}
+.footer-img{
+  width: 8rem;
+}
+.footer-title{
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.signoff{
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.share{
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  font-size: 2rem;
+}
+.share a {
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.share a:hover {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.white{
+  color: white;
+}
+.bold{
+  font-weight: bold;
+}
