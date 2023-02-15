@@ -1,3 +1,73 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+  font-family: "Poppins", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+header {
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header .navbar a {
+  color: white;
+  padding: 10px 20px;
+}
+
+header .navbar a:hover {
+  background: white;
+  color: #EB7B5B;
+}
+
+header .navbar .button {
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  border-radius: 30px;
+}
+
+header .navbar .button:hover {
+  background: none;
+  border: 1px solid #EB7B5B;
+  color: #EB7B5B;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  padding-left: 1rem;
 }
