@@ -134,3 +134,13 @@ header .navbar .button:hover {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
 }
+.media{
+  padding: 5rem 0;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white
+}
+.media img{
+  width: 40%;
+  object-fit: cover;
+  padding: 1rem;
+}
