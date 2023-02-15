@@ -211,3 +211,7 @@ header .navbar .button:hover {
 .bold{
   font-weight: bold;
 }
+.sub-footer{
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
