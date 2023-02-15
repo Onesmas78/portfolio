@@ -64,7 +64,7 @@ header .navbar .button:hover {
 }
 
 .logo {
-  width: 4rem;
+  width: 6rem;
 }
 
 .name {
@@ -140,8 +140,6 @@ header .navbar .button:hover {
   border-top: 1px solid white
 }
 .media img{
-  width: 40%;
-  object-fit: cover;
   padding: 1rem;
 }
 #about{
@@ -174,7 +172,7 @@ header .navbar .button:hover {
   padding: 10rem 0;
 }
 .footer-img{
-  width: 8rem;
+  width: 15rem;
 }
 .footer-title{
   font-size: 5rem;
